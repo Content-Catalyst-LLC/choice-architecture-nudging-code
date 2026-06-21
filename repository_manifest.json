@@ -1,0 +1,169 @@
+{
+  "repository": "choice-architecture-nudging-code",
+  "organization": "Content-Catalyst-LLC",
+  "series_title": "Choice Architecture and Nudging",
+  "kind": "article-map",
+  "description": "Companion repository for choice architecture, nudges, defaults, friction, salience, simplification, digital interfaces, dark patterns, and governance.",
+  "generated_at": "2026-06-21T05:37:50+00:00",
+  "upgrade_tag": "behavioral-science-upgrade-20260621-003706",
+  "standard": "sustainable-catalyst-article-map-code-repo-v2",
+  "article_count": 22,
+  "article_root": "articles/",
+  "shared_root": "_shared/",
+  "default_article_layers": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "rust",
+    "go",
+    "c",
+    "cpp",
+    "fortran",
+    "java",
+    "typescript",
+    "prolog",
+    "notebooks",
+    "docs",
+    "data",
+    "outputs",
+    "tests"
+  ],
+  "calculator_layer_required": true,
+  "articles": [
+    {
+      "slug": "what-is-choice-architecture",
+      "title": "What Is Choice Architecture?",
+      "summary": "A foundational article on the structure of decision environments.",
+      "path": "articles/what-is-choice-architecture/"
+    },
+    {
+      "slug": "what-is-a-nudge",
+      "title": "What Is a Nudge?",
+      "summary": "Nudges as behavioral interventions that alter choice without banning options.",
+      "path": "articles/what-is-a-nudge/"
+    },
+    {
+      "slug": "decision-environments-and-human-behavior",
+      "title": "Decision Environments and Human Behavior",
+      "summary": "How context shapes attention, evaluation, and action.",
+      "path": "articles/decision-environments-and-human-behavior/"
+    },
+    {
+      "slug": "defaults-friction-and-salience",
+      "title": "Defaults, Friction, and Salience",
+      "summary": "Core mechanisms of choice architecture.",
+      "path": "articles/defaults-friction-and-salience/"
+    },
+    {
+      "slug": "choice-architecture-vs-persuasion",
+      "title": "Choice Architecture vs Persuasion",
+      "summary": "Designing environments versus changing beliefs.",
+      "path": "articles/choice-architecture-vs-persuasion/"
+    },
+    {
+      "slug": "libertarian-paternalism-and-its-critics",
+      "title": "Libertarian Paternalism and Its Critics",
+      "summary": "The philosophical argument behind nudging and its objections.",
+      "path": "articles/libertarian-paternalism-and-its-critics/"
+    },
+    {
+      "slug": "why-no-choice-environment-is-neutral",
+      "title": "Why No Choice Environment Is Neutral",
+      "summary": "Every choice setting structures behavior.",
+      "path": "articles/why-no-choice-environment-is-neutral/"
+    },
+    {
+      "slug": "defaults-and-opt-out-design",
+      "title": "Defaults and Opt-Out Design",
+      "summary": "How preselected options shape participation and behavior.",
+      "path": "articles/defaults-and-opt-out-design/"
+    },
+    {
+      "slug": "opt-in-systems-and-participation-barriers",
+      "title": "Opt-In Systems and Participation Barriers",
+      "summary": "How enrollment architecture shapes access.",
+      "path": "articles/opt-in-systems-and-participation-barriers/"
+    },
+    {
+      "slug": "salience-and-attention",
+      "title": "Salience and Attention",
+      "summary": "What people notice, ignore, compare, and act upon.",
+      "path": "articles/salience-and-attention/"
+    },
+    {
+      "slug": "simplification-and-cognitive-load",
+      "title": "Simplification and Cognitive Load",
+      "summary": "How complexity affects choice and access.",
+      "path": "articles/simplification-and-cognitive-load/"
+    },
+    {
+      "slug": "ordering-effects-and-menu-design",
+      "title": "Ordering Effects and Menu Design",
+      "summary": "How sequence and presentation shape selection.",
+      "path": "articles/ordering-effects-and-menu-design/"
+    },
+    {
+      "slug": "friction-hassle-costs-and-administrative-burden",
+      "title": "Friction, Hassle Costs, and Administrative Burden",
+      "summary": "Effort costs and institutional access.",
+      "path": "articles/friction-hassle-costs-and-administrative-burden/"
+    },
+    {
+      "slug": "feedback-reminders-and-prompts",
+      "title": "Feedback, Reminders, and Prompts",
+      "summary": "Timely signals and behavioral follow-through.",
+      "path": "articles/feedback-reminders-and-prompts/"
+    },
+    {
+      "slug": "boosts-vs-nudges",
+      "title": "Boosts vs Nudges",
+      "summary": "Capacity-building interventions versus environment steering.",
+      "path": "articles/boosts-vs-nudges/"
+    },
+    {
+      "slug": "social-norm-nudges",
+      "title": "Social Norm Nudges",
+      "summary": "Using perceived norms to shape action.",
+      "path": "articles/social-norm-nudges/"
+    },
+    {
+      "slug": "digital-choice-architecture",
+      "title": "Digital Choice Architecture",
+      "summary": "Behavioral design in interfaces and platforms.",
+      "path": "articles/digital-choice-architecture/"
+    },
+    {
+      "slug": "platform-defaults",
+      "title": "Platform Defaults",
+      "summary": "Default settings and digital behavior.",
+      "path": "articles/platform-defaults/"
+    },
+    {
+      "slug": "recommendation-systems-and-choice-environments",
+      "title": "Recommendation Systems and Choice Environments",
+      "summary": "Algorithmic curation and behavioral influence.",
+      "path": "articles/recommendation-systems-and-choice-environments/"
+    },
+    {
+      "slug": "personalization-and-behavioral-targeting",
+      "title": "Personalization and Behavioral Targeting",
+      "summary": "Tailored choice environments and governance risks.",
+      "path": "articles/personalization-and-behavioral-targeting/"
+    },
+    {
+      "slug": "dark-patterns",
+      "title": "Dark Patterns",
+      "summary": "Manipulative design and user autonomy.",
+      "path": "articles/dark-patterns/"
+    },
+    {
+      "slug": "algorithmic-nudging",
+      "title": "Algorithmic Nudging",
+      "summary": "Automated, adaptive, and personalized nudges.",
+      "path": "articles/algorithmic-nudging/"
+    }
+  ],
+  "responsible_use": "Educational and research-scaffolding examples only; not operational guidance without validation and ethical review."
+}
