@@ -1,32 +1,74 @@
 # Choice Architecture and Nudging Article Map
 
-Companion repository for choice architecture, nudges, defaults, friction, salience, simplification, digital interfaces, dark patterns, and governance.
+This repository accompanies the Choice Architecture and Nudging knowledge series.
 
-## Articles
+## Foundations of Choice Architecture
+- What Is Choice Architecture?
+- What Is a Nudge?
+- Decision Environments and Human Behavior
+- Defaults, Friction, and Salience
+- Choice Architecture vs Persuasion
+- Libertarian Paternalism and Its Critics
+- Why No Choice Environment Is Neutral
 
-- [What Is Choice Architecture?](articles/what-is-choice-architecture/) — A foundational article on the structure of decision environments.
-- [What Is a Nudge?](articles/what-is-a-nudge/) — Nudges as behavioral interventions that alter choice without banning options.
-- [Decision Environments and Human Behavior](articles/decision-environments-and-human-behavior/) — How context shapes attention, evaluation, and action.
-- [Defaults, Friction, and Salience](articles/defaults-friction-and-salience/) — Core mechanisms of choice architecture.
-- [Choice Architecture vs Persuasion](articles/choice-architecture-vs-persuasion/) — Designing environments versus changing beliefs.
-- [Libertarian Paternalism and Its Critics](articles/libertarian-paternalism-and-its-critics/) — The philosophical argument behind nudging and its objections.
-- [Why No Choice Environment Is Neutral](articles/why-no-choice-environment-is-neutral/) — Every choice setting structures behavior.
-- [Defaults and Opt-Out Design](articles/defaults-and-opt-out-design/) — How preselected options shape participation and behavior.
-- [Opt-In Systems and Participation Barriers](articles/opt-in-systems-and-participation-barriers/) — How enrollment architecture shapes access.
-- [Salience and Attention](articles/salience-and-attention/) — What people notice, ignore, compare, and act upon.
-- [Simplification and Cognitive Load](articles/simplification-and-cognitive-load/) — How complexity affects choice and access.
-- [Ordering Effects and Menu Design](articles/ordering-effects-and-menu-design/) — How sequence and presentation shape selection.
-- [Friction, Hassle Costs, and Administrative Burden](articles/friction-hassle-costs-and-administrative-burden/) — Effort costs and institutional access.
-- [Feedback, Reminders, and Prompts](articles/feedback-reminders-and-prompts/) — Timely signals and behavioral follow-through.
-- [Boosts vs Nudges](articles/boosts-vs-nudges/) — Capacity-building interventions versus environment steering.
-- [Social Norm Nudges](articles/social-norm-nudges/) — Using perceived norms to shape action.
-- [Digital Choice Architecture](articles/digital-choice-architecture/) — Behavioral design in interfaces and platforms.
-- [Platform Defaults](articles/platform-defaults/) — Default settings and digital behavior.
-- [Recommendation Systems and Choice Environments](articles/recommendation-systems-and-choice-environments/) — Algorithmic curation and behavioral influence.
-- [Personalization and Behavioral Targeting](articles/personalization-and-behavioral-targeting/) — Tailored choice environments and governance risks.
-- [Dark Patterns](articles/dark-patterns/) — Manipulative design and user autonomy.
-- [Algorithmic Nudging](articles/algorithmic-nudging/) — Automated, adaptive, and personalized nudges.
+## Core Choice Architecture Tools
+- Defaults and Opt-Out Design
+- Opt-In Systems and Participation Barriers
+- Salience and Attention
+- Simplification and Cognitive Load
+- Ordering Effects and Menu Design
+- Friction, Hassle Costs, and Administrative Burden
+- Feedback, Reminders, and Prompts
 
-## Notes
+## Nudging and Behavioral Intervention
+- Nudge Theory
+- Boosts vs Nudges
+- Information Disclosure and Behavioral Response
+- Commitment Devices in Choice Architecture
+- Social Norm Nudges
+- Loss Framing and Risk Communication
+- Timely Interventions and Behavioral Timing
 
-This file is a repository-side companion to the WordPress article map. Article folders may contain conceptual examples, model scaffolds, calculator scripts, synthetic data, notebooks, documentation, and tests.
+## Digital Choice Architecture
+- Interface Design and Behavioral Influence
+- Platform Defaults
+- Recommendation Systems and Choice Environments
+- Personalization and Behavioral Targeting
+- Dark Patterns
+- Subscription Traps and Friction Asymmetry
+- Algorithmic Nudging
+
+## Institutional and Public-Policy Applications
+- Choice Architecture in Public Benefits
+- Choice Architecture in Health Systems
+- Retirement Savings and Default Enrollment
+- Environmental and Energy Nudges
+- Education, Enrollment, and Completion
+- Tax Compliance and Civic Behavior
+- Administrative Burden and Institutional Access
+
+## Measurement and Evaluation
+- Testing Choice Architecture
+- A/B Testing and Field Experiments
+- Uptake, Compliance, and Behavioral Outcomes
+- Spillovers and Unintended Consequences
+- Heterogeneous Effects in Nudging
+- Long-Term Effects of Nudges
+- When Nudges Fail
+
+## Ethics and Governance
+- Transparency in Choice Architecture
+- Consent and Autonomy in Nudging
+- Manipulation and Behavioral Control
+- Equity and Vulnerability in Choice Architecture
+- Accountability for Behavioral Design
+- Regulating Dark Patterns
+- The Future of Choice Architecture
+
+## Planned Extensions
+- Choice Architecture and Climate Adaptation
+- Choice Architecture and AI-Personalized Public Services
+- Choice Architecture and Public Trust
+- Choice Architecture and Inequality
+- Choice Architecture and Digital Rights
+- Choice Architecture and Collective Action

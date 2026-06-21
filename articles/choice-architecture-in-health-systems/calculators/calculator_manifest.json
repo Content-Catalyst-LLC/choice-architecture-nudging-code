@@ -1,0 +1,12 @@
+{
+  "article_slug": "choice-architecture-in-health-systems",
+  "article_title": "Choice Architecture in Health Systems",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}

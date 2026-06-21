@@ -1,11 +1,20 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd "$(dirname "${BASH_SOURCE[0]}")"
-mkdir -p outputs
-python3 python/behavioral_calculator.py --output ../outputs/calculator_result.json >/dev/null
-if command -v Rscript >/dev/null 2>&1; then
-  Rscript r/behavioral_calculator.R >/dev/null
+
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+if command -v python3 >/dev/null 2>&1; then
+  python3 "$DIR/python/choice_architecture_calculator.py" >/dev/null
+  test -f "$DIR/outputs/python_choice_summary.json"
 else
-  echo "Rscript not found; skipped R calculator smoke test."
+  echo "python3 not found; skipping Python calculator."
 fi
-echo "Calculator smoke tests completed for $(basename "$(dirname "$PWD")")"
+
+if command -v Rscript >/dev/null 2>&1; then
+  Rscript "$DIR/r/choice_architecture_calculator.R" >/dev/null
+  test -f "$DIR/outputs/r_choice_summary.csv"
+else
+  echo "Rscript not found; skipping R calculator."
+fi
+
+echo "Calculator smoke tests passed for $DIR"

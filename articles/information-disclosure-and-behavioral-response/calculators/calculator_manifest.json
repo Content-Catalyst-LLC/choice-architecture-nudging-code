@@ -1,0 +1,12 @@
+{
+  "article_slug": "information-disclosure-and-behavioral-response",
+  "article_title": "Information Disclosure and Behavioral Response",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}

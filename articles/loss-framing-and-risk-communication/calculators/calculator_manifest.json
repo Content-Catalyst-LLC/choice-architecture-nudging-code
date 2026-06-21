@@ -1,0 +1,12 @@
+{
+  "article_slug": "loss-framing-and-risk-communication",
+  "article_title": "Loss Framing and Risk Communication",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}

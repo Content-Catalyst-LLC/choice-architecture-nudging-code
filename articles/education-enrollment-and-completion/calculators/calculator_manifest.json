@@ -1,0 +1,12 @@
+{
+  "article_slug": "education-enrollment-and-completion",
+  "article_title": "Education Enrollment and Completion",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}

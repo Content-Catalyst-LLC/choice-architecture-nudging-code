@@ -1,9 +1,7 @@
-# Calculators for Opt-In Systems and Participation Barriers
+# Calculators for Opt in Systems and Participation Barriers
 
-Self-contained educational calculator scripts for the **Choice Architecture and Nudging** series.
-
-Run:
-
-```bash
-bash run_calculator_smoke_tests.sh
-```
+Self-contained educational calculators for choice architecture concepts:
+- logistic choice probability
+- default-effect comparison
+- friction completion probability
+- simple intervention summary outputs

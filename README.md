@@ -1,35 +1,59 @@
 # Choice Architecture and Nudging Code
 
-This repository supports the Sustainable Catalyst **Choice Architecture and Nudging** knowledge series with reproducible, article-level research scaffolds, synthetic datasets, computational examples, calculator scripts, documentation, and responsible-use notes.
+Computational companion repository for the **Choice Architecture and Nudging** knowledge series from Sustainable Catalyst / Content Catalyst LLC.
 
-## Repository role
+This repository supports the article map at:
 
-Companion repository for choice architecture, nudges, defaults, friction, salience, simplification, digital interfaces, dark patterns, and governance.
+- https://sustainablecatalyst.com/choice-architecture-and-nudging/
 
-The repository follows the Sustainable Catalyst article-map format:
+The series examines defaults, opt-ins, opt-outs, salience, simplification, ordering, friction, prompts, reminders, feedback, social norm nudges, boosts, digital interfaces, public-policy nudging, administrative burden, dark patterns, algorithmic choice architecture, measurement, ethics, and the governance of behavioral influence.
 
-- `articles/<article-slug>/` for article-specific code, data, documentation, calculators, outputs, and tests.
-- `_shared/` for reusable models, schemas, glossary material, data dictionaries, and cross-article methods.
-- `datasets/synthetic/` for non-sensitive demonstration data.
-- `docs/` for methodology, governance, ethics, reproducibility, and implementation notes.
-- `scripts/` for smoke tests and repository maintenance.
+## Repository structure
 
-## Current article scaffold count
+```text
+articles/
+  <article-slug>/
+    calculators/
+    data/
+    docs/
+    notebooks/
+    outputs/
+    python/
+    r/
+    julia/
+    sql/
+    haskell/
+    rust/
+    go/
+    c/
+    cpp/
+    fortran/
+    java/
+    typescript/
+    prolog/
+_shared/
+datasets/
+docs/
+notebooks/
+outputs/
+scripts/
+tests/
+canvas/
+```
 
-22 article folders are defined in this repo manifest.
+## Design principles
 
-## Focus areas
+- Use synthetic data unless a real public dataset is explicitly documented.
+- Make assumptions visible.
+- Treat decision environments as ethically consequential.
+- Separate behavioral support from manipulation.
+- Include calculators and smoke tests for every article folder.
+- Preserve reproducibility through manifests, scripts, schemas, and outputs.
 
-- default-effect calculators
-- friction models
-- A/B test scaffolds
-- dark-pattern audits
-- interface simulations
+## Quick smoke test
 
-## Responsible use
+```bash
+bash tests/run_all_smoke_tests.sh
+```
 
-These examples are educational and research-scaffolding tools. They are not fitted to confidential, proprietary, or sensitive data. They should not be used as operational policy tools without empirical validation, sensitivity analysis, peer review, human-subjects review where applicable, and appropriate ethical governance.
-
-## GitHub repository
-
-https://github.com/Content-Catalyst-LLC/choice-architecture-nudging-code
+Generated or upgraded by `setup_choice_architecture_nudging_repo.sh`.

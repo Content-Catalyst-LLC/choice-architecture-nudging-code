@@ -1,0 +1,12 @@
+{
+  "article_slug": "retirement-savings-and-default-enrollment",
+  "article_title": "Retirement Savings and Default Enrollment",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}

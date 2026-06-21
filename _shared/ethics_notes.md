@@ -1,3 +1,12 @@
 # Ethics Notes
 
-Behavioral analysis can affect autonomy, dignity, privacy, equity, and public trust. Treat examples as educational scaffolds and require ethical review before real-world intervention.
+Choice architecture is ethically consequential.
+
+Review questions:
+- Is the intervention transparent?
+- Can people understand the choice?
+- Can people reverse or exit the choice?
+- Who benefits from the design?
+- Who bears friction?
+- Are vulnerable groups protected?
+- Does the design support agency or exploit behavioral limits?

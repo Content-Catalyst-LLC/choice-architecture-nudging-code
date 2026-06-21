@@ -1,0 +1,12 @@
+{
+  "article_slug": "accountability-for-behavioral-design",
+  "article_title": "Accountability for Behavioral Design",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}

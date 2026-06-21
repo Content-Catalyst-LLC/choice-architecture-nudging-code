@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Choice Architecture Intervention Record",
+  "type": "object",
+  "required": ["intervention_id", "article_slug", "target_behavior", "mechanism", "ethical_review"],
+  "properties": {
+    "intervention_id": {"type": "string"},
+    "article_slug": {"type": "string"},
+    "target_behavior": {"type": "string"},
+    "mechanism": {
+      "type": "string",
+      "enum": ["default", "salience", "simplification", "friction_reduction", "reminder", "social_norm", "disclosure", "boost", "other"]
+    },
+    "population": {"type": "string"},
+    "expected_effect": {"type": "string"},
+    "measurement_plan": {"type": "string"},
+    "ethical_review": {
+      "type": "object",
+      "required": ["transparency", "autonomy", "equity", "reversibility"],
+      "properties": {
+        "transparency": {"type": "string"},
+        "autonomy": {"type": "string"},
+        "equity": {"type": "string"},
+        "reversibility": {"type": "string"}
+      }
+    }
+  }
+}

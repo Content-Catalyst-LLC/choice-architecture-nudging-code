@@ -1,9 +1,9 @@
 # Modeling Assumptions
 
-Document assumptions before using any model, calculator, simulation, or analytic scaffold.
+Models in this repository are educational scaffolds. They are intended to make assumptions visible, not to produce real-world predictions without validation.
 
-- Identify the behavioral mechanism.
-- Define the target behavior.
-- State the population and context.
-- Distinguish synthetic from empirical data.
-- Document uncertainty and limits.
+Common assumptions:
+- Choice probability is shaped by value, defaults, salience, friction, trust, social cues, and comprehension.
+- Friction lowers completion probability.
+- Defaults can increase uptake through inertia, attention, and reduced effort.
+- Effects vary by context, population, and institutional trust.

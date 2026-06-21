@@ -1,0 +1,7 @@
+# Calculators for Retirement Savings and Default Enrollment
+
+Self-contained educational calculators for choice architecture concepts:
+- logistic choice probability
+- default-effect comparison
+- friction completion probability
+- simple intervention summary outputs

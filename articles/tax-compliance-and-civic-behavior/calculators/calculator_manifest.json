@@ -1,0 +1,12 @@
+{
+  "article_slug": "tax-compliance-and-civic-behavior",
+  "article_title": "Tax Compliance and Civic Behavior",
+  "calculators": [
+    "python/choice_architecture_calculator.py",
+    "r/choice_architecture_calculator.R"
+  ],
+  "outputs": [
+    "outputs/python_choice_summary.json",
+    "outputs/r_choice_summary.csv"
+  ]
+}
